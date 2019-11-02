@@ -1,0 +1,58 @@
+<div class="container">
+   
+
+<form  [formGroup]="messageForm" (ngSubmit)="onSubmit()" >
+     
+    
+    <div *ngIf="success"  class="alert alert-success">
+        <strong>Success! Details saved to database</strong>
+        <br>
+        Difference between end date and start date is {{dateDiff}}
+    </div>
+  
+    
+    
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title">Training Details</h3>
+        </div>
+        <div class="panel-body">
+    
+          <div class="form-group">
+            <label for="name">Taining Name</label>
+            <input type="text" formControlName="name"class="form-control">
+            <div *ngIf="submitted && messageForm.controls.name.errors" class="alert alert-danger">
+                <div *ngIf="messageForm.controls.name.errors.required">Name is required</div>
+              </div>
+          </div>
+
+          <div class="form-group">
+                <label for="startDate">Start Date</label>
+                <input onkeydown="return false" type="date" formControlName="startDate"class="form-control">
+                <div *ngIf="submitted && messageForm.controls.startDate.errors" class="alert alert-danger">
+                    <div *ngIf="messageForm.controls.startDate.errors.required">Start date is required</div>
+                  </div>
+          </div>
+
+          <div class="form-group">
+                <label for="endDate">End Date</label>
+                <input onkeydown="return false" type="date" formControlName="endDate"class="form-control">
+                <div *ngIf="submitted && messageForm.controls.endDate.errors" class="alert alert-danger">
+                    <div *ngIf="messageForm.controls.endDate.errors.required">End date is required</div>
+                    <div *ngIf="messageForm.controls.endDate.errors.mustMatch">{{errorMessage}}</div>
+                  </div>
+          </div>
+    
+              
+        </div>
+        <div class="panel-footer">
+          <button class="btn btn-primary" type="submit">Confirm</button>
+        </div>
+      </div>
+  
+  </form>
+
+  
+</div>
+
+

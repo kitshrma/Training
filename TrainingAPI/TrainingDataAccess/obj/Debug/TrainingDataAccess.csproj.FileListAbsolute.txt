@@ -1,0 +1,10 @@
+C:\Users\Kit\source\repos\TrainingAPI\TrainingDataAccess\bin\Debug\TrainingDataAccess.dll.config
+C:\Users\Kit\source\repos\TrainingAPI\TrainingDataAccess\bin\Debug\TrainingDataAccess.dll
+C:\Users\Kit\source\repos\TrainingAPI\TrainingDataAccess\bin\Debug\TrainingDataAccess.pdb
+C:\Users\Kit\source\repos\TrainingAPI\TrainingDataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Kit\source\repos\TrainingAPI\TrainingDataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Kit\source\repos\TrainingAPI\TrainingDataAccess\obj\Debug\TrainingDataAccess.csprojAssemblyReference.cache
+C:\Users\Kit\source\repos\TrainingAPI\TrainingDataAccess\obj\Debug\TrainingDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Kit\source\repos\TrainingAPI\TrainingDataAccess\obj\Debug\TrainingDataAccess.csproj.CopyComplete
+C:\Users\Kit\source\repos\TrainingAPI\TrainingDataAccess\obj\Debug\TrainingDataAccess.dll
+C:\Users\Kit\source\repos\TrainingAPI\TrainingDataAccess\obj\Debug\TrainingDataAccess.pdb
